@@ -1,5 +1,9 @@
 {
   "dependencies": {
+    "ejs": "^3.1.10",
     "express": "^5.1.0"
+  },
+  "scripts": {
+    "dev": "nodemon --ext js,ejs,css,html app.js"
   }
 }
