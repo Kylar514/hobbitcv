@@ -69,7 +69,7 @@ header a:active {
 .hamburger div {
   width: 25px;
   height: 3px;
-  background: black;
+    background: #CAB1A1;
 }
 
 @media (max-width: 768px) {
@@ -86,7 +86,7 @@ header a:active {
     top: 100%;
     right: 0;
     width: 70%;
-    background: white;
+    background: black;
     border-top: 1px solid #eee;
     border-left: 1px solid #eee;
     padding: 1rem;
