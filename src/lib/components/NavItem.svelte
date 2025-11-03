@@ -21,7 +21,7 @@
 }
 
 .arrow.open {
-  transform: rotate(180deg);
+  transform: rotate(90deg);
 }
 
 .submenu {
@@ -65,13 +65,13 @@
   on:mouseleave={() => (open = false)}
   on:click={() => (open = !open)}  
 >
-  <span>{label}</span>
   {#if submenu.length}
-    <span class="arrow {open ? 'open' : ''}">▼</span>
+    <span class="arrow {open ? 'open' : ''}">➤</span>
     <div class="submenu {open ? 'open' : ''}">
       {#each submenu as item}
         <a href={item.href}>{item.label}</a>
       {/each}
     </div>
   {/if}
+  <span>{label}</span>
 </div>

@@ -2,6 +2,7 @@
   import Header from '$lib/components/Header.svelte';
   import Footer from '$lib/components/Footer.svelte';
   import Section from '$lib/components/Section.svelte';
+  import Section2 from '$lib/components/Section2.svelte';
 </script>
 
 <Header />
@@ -22,10 +23,12 @@
   buttonLink="/contact"
 />
 
-<Section
-  image="/images/approach.jpg"
-  title="My Approach"
-  copy="How I work and think"
+<Section2
+  image="/images/about.jpg"
+  title="About Me"
+  copy="Short bio here"
+  buttonText="Work With Me"
+  buttonLink="/contact"
 />
 
 <Section
@@ -33,12 +36,6 @@
   copy="Check out my projects"
   buttonText="View Portfolio"
   buttonLink="/group-campaigns"
-/>
-
-<Section
-  image="/images/contact.jpg"
-  title="Get In Touch!"
-  copy="Contact info here"
 />
 
 <Footer />

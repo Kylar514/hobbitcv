@@ -47,7 +47,15 @@ nav {
   display: flex;
   gap: 1.5rem;
   align-items: center;
-  color: #CAB1A1
+}
+
+header a,
+header a:link,
+header a:visited,
+header a:hover,
+header a:active {
+  color: inherit;
+  text-decoration: none;
 }
 
 /* Hamburger for small screens */
